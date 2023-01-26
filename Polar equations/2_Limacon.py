@@ -8,5 +8,5 @@ b = 4
 
 r = a + b*cos(theta)
 polar(theta,r,"r")
-title("Limacon\n")
+title("Limacon : $a + bcos(θ)$\n")
 show()
