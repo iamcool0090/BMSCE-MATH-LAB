@@ -2,8 +2,12 @@ from sympy import plot_implicit, symbols,Eq
 x, y, a = symbols('x y a')
 a = 4
 # Define the equation for the shape
-eq = Eq(x**4 + (a**2) * (y**2),(a**2) * (x**2))
+eq = Eq(a**2 * y**2 ,x**2 * (a**2 - x**2))
+
+
 
 # Plot the shape
 
-plot_implicit(eq)
+p = plot_implicit(eq , (x,-4,4), (y,-4,4),title='$a^2 y^2 = x^2(a^2 - x^2)$',line_color='r')
+#p=plot_implicit(Eq(LHS,RHS),(x,leftside,rightside),(y,up,down),title='title',color='color')
+
