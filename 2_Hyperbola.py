@@ -4,7 +4,7 @@ x, y, a, b = symbols('x y a b')
 a = 2
 b = 4
 # Define the equation for the shape
-eq = Eq((x**2)/(a**2),1 + (y**2)/(b**2))
+eq = Eq((x**2)/(a**2)-(y**2)/(b**2),1)
 
 # Plot the shape
 
