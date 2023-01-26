@@ -5,4 +5,11 @@ a = 4
 eq = Eq(x**(2/3) + y**(2/3), a**(2/3))
 
 # Plot the shape
-plot_implicit(eq)
+
+p = plot_implicit(eq , (x,-4,4), (y,-4,4),title='$x^2/3 + y^2/3 = a^2/3$',line_color='r')
+
+
+
+#p=plot_implicit(Eq(LHS,RHS),(x,leftside,rightside),(y,up,down),title='title',color='color')
+
+#note this program contains an error in displaying 2/3 as a power 
