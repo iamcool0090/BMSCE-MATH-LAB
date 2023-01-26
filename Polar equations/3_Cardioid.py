@@ -8,5 +8,5 @@ a = 3
 
 r = a + a*cos(theta)
 polar(theta,r,"r")
-title("Cardioid\n")
+title("Cardioid : $a + acos(θ)$\n")
 show()
