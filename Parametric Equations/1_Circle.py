@@ -6,7 +6,7 @@ def circle(a):
   y = []
 
 
-  for i in np.linspace(-10,10,50):
+  for i in np.linspace(-10,10,1000):
     x.append(a * np.cos(i))
     y.append(a * np.sin(i))
 
