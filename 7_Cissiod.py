@@ -2,7 +2,7 @@ from sympy import plot_implicit, symbols,Eq
 x, y, a = symbols('x y a')
 a = 4
 # Define the equation for the shape
-eq = Eq(y**2*(a-x),x**3)
+eq = Eq((y**2)*(a-x),x**3)
 
 
 # Plot the shape
