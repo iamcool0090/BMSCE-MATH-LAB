@@ -8,5 +8,5 @@ b = 4
 
 r = a + b*theta
 polar(theta,r,"r")
-title("Spiral of Archimedes\n")
+title("Spiral of Archimedes : $a + bθ$\n")
 show()
