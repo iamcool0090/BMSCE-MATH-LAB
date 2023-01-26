@@ -5,7 +5,7 @@ a = 2
 # Define the equation for the shape
 
 
-eq = Eq(y**2*(a-x),x**2*(a+x))
+eq = Eq((y**2)*(a-x),(x**2)*(a+x))
 
 # Plot the shape
 
