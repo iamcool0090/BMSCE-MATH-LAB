@@ -7,4 +7,6 @@ eq = Eq(x**3 + y**3,3*a*x*y)
 
 # Plot the shape
 
-plot_implicit(eq)
+p = plot_implicit(eq , (x,-4,4), (y,-4,4),title='$x^3 + y^3 = 3axy$',line_color='r')
+#p=plot_implicit(Eq(LHS,RHS),(x,leftside,rightside),(y,up,down),title='title',color='color')
+
