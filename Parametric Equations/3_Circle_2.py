@@ -1,21 +1,21 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def Circle(a):
+def circle(a):
   x = []
   y = []
 
 
-  for t in np.linspace(-6,6,50):
-    x.append(5*np.cos(t))
-    y.append(5*np.sin(t))
+  for i in np.linspace(-10,10,1000):
+    x.append(a * np.cos(i))
+    y.append(a * np.sin(i))
 
 
 
 
   plt.plot(x,y)
   plt.grid()
-  plt.title("Circle : $x = 5cos(θ); y = 5sin(θ)$")
+  plt.title("Circle : $x = acos(θ); y = asin(θ)$")
   plt.show()
 
-Circle(10)
+circle(10)
